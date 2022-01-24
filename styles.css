@@ -1,0 +1,81 @@
+:root{
+    --color-fondoggj:#004E72;
+    --color-botonesggj:#2C2E63;
+    --color-botonesggj-hover:#252758;
+}
+
+#header img{
+    width: 80px;
+}
+
+.navbar{
+    background-color: var(--color-fondoggj);
+    color: white;
+}
+
+.overlay .row .col{
+    background-color: rgba(0, 0, 0, .2);
+    font-size: 18px;
+}
+
+.btn-ggj{
+    background-color: var(--color-botonesggj);
+    color: white;
+}
+
+.btn-ggj:hover{
+    background-color: var(--color-botonesggj-hover);
+    color: white;
+}
+
+#main .carousel-inner img{
+    /* 70% del alto de la pantalla disponible por el navegador */
+    max-height: 70vh;
+    /* para corregir la imagen estirada */
+    object-fit: cover;
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    /* para que el overlay se expanda por todo el alto y ancho del carousel */
+    position: absolute;
+    z-index: 1;
+    /* para que no tenga espacios */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}
+
+#carousel .overlay .container, #carousel .overlay .row{
+    height: 100%;
+}
+
+#organizadores img{
+    height: 400px;
+    object-fit: cover;
+}
+
+#place-time{
+    background-color: var(--color-botonesggj);
+    color:white
+}
+
+#place-time img{
+    max-width: 100%;
+}
+
+#footer{
+    background-color: var(--color-fondoggj);
+    text-align: center;
+    justify-content: center;
+}
+
+#footer p{
+    color: White;
+}
