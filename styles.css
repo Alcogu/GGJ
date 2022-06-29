@@ -10,6 +10,8 @@
 
 .navbar{
     background-color: var(--color-fondoggj);
+    text-align: center;
+    justify-content: center;
 }
 
 .overlay .row .col{
@@ -72,6 +74,7 @@
     background-color: var(--color-fondoggj);
     text-align: center;
     justify-content: center;
+    padding-top: 10px;
 }
 
 #footer p{
